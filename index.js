@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import Hooks from './Hooks';
+import {ComponentUserSelector } from './UserSelector';
+        
+
 import './style.css';
 
 class App extends Component {
@@ -20,6 +23,7 @@ class App extends Component {
           Start editing to see some magic happen :)
         </p>
         <Hooks />
+        <ComponentUserSelector />
       </div>
     );
   }
